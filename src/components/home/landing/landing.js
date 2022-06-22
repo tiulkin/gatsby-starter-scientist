@@ -17,9 +17,7 @@ const Landing = ({
   >
     <div>
       <h1>
-        The Lab of Dr.
-        {' '}
-        {author}
+        Черкес Руслан — история о профессиональном <s>спортсмене</s> мошеннике и кидале из Славянска-на-Кубани.
       </h1>
       <p className="home__landing-description">
         {description}

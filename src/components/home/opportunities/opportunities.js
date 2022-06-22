@@ -13,11 +13,11 @@ const Opportunities = ({
 }) => (
   <section
     className="opportunities"
-    id="opportunities"
+    id="cel"
   >
     <h2>
       <FontAwesomeIcon icon={faUserFriends} />
-      Opportunities
+      Наша цель
     </h2>
     <div dangerouslySetInnerHTML={{ __html: html }} />
   </section>

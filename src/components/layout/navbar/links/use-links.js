@@ -31,6 +31,8 @@ const useLinks = () => {
     links.push('publications');
   }
 
+  links.push('#istoriya');
+
   return links;
 };
 

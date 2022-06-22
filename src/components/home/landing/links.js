@@ -11,25 +11,33 @@ const routes = {
   research: '/#research',
 };
 
-const Links = ({
-  links,
-}) => (
+const   links = [
+  { uri: '/#istoriya', title: 'Вся история' },
+  { uri: '/#cel', title: 'Наша цель' },
+  { uri: '/#chto', title: 'Что планируется делать'},
+  { uri: '/#zaprosy', title: 'Запросы по которым ищут Руслана Черкеса'},
+  { uri: '/#proof ', title: 'Подтверждения, скрины переписок'},
+  { uri: '/#list', title: 'Список людей которых обманул Руслан Черкес'},
+  { uri: '/#dopoln', title: 'Дополнительно (если вас обманули)'},
+  { uri: '/#inforuslan', title: 'Данные Руслана Черкеса'},
+
+
+]
+const Links = (
+) => (
   links.length > 0
   && (
     <div className="home__landing-links">
       {
         links.map((link) => (
-          routes[link]
-          && (
             <Link
               buttonStyle
-              key={link}
+              key={link.uri}
               nav
-              to={routes[link]}
+              to={link.uri}
             >
-              {link}
+              {link.title}
             </Link>
-          )
         ))
       }
     </div>

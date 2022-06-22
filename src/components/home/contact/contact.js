@@ -13,11 +13,11 @@ const Contact = ({
 }) => (
   <section
     className="contact"
-    id="contact"
+    id="inforuslan"
   >
     <h2>
       <FontAwesomeIcon icon={faMailBulk} />
-      Contact
+      Данные и информация о Руслане Черкесе
     </h2>
     <div dangerouslySetInnerHTML={{ __html: html }} />
   </section>

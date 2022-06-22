@@ -1,7 +1,5 @@
 ---
-email: diogenes@wnw.edu
-image: ../../images/portrait.png
-name: Diogenes Teufelsdröckh
+name: Пострадавший 1
 order: 1
 title: Professor of "Things in General"
 ---

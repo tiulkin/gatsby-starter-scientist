@@ -1,16 +1,16 @@
 module.exports = {
   // pathPrefix: '/gatsby-starter-scientist',
   siteMetadata: {
-    author: 'Diogenes Teufelsdröckh',
-    description: 'Transcendentalist musings on the future of robots',
-    siteUrl: 'https://knightjdr.github.io/gatsby-starter-scientist',
-    title: 'Teufelsdröckh laboratory',
+    author: 'Сообщество любителей настольного тенниса города Севастополя',
+    description: 'Никогда и ни при каких обстоятельствах не имейте с Русланом Черкесом дел и не давайте Руслану Черкесу деньги',
+    siteUrl: 'https://ruslan-cherkes.ru',
+    title: 'Руслан Черкес — мошенник, кидала и обманщик',
     // List of link buttons to include on the landing image. Delete this field
     // and/or all entires if you do not want these links.
     // options: 'contact', 'opportunities', 'people', 'publications', 'research'
     primaryLinks: [
-      'research',
-      'opportunities',
+      'начало',
+      'продолжение',
     ],
     // List of PubMed IDs to include on the publication page. Delete this field
     // and/or all entires if you do not want the publication page.
@@ -76,7 +76,7 @@ module.exports = {
       resolve: 'gatsby-plugin-use-dark-mode',
       options: {
         classNameDark: 'dark-mode',
-        classNameLight: 'light-mode',
+        classNameLight: 'dark-mode',
         storageKey: 'darkMode',
         minify: true,
       },

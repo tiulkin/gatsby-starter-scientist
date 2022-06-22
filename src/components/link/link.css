@@ -11,7 +11,7 @@ a:link {
   color: var(--color-link);
 }
 a:visited {
-  color: var(--color-link-visited);
+  color: var(--color-link);
 }
 a:hover,
 a:focus,
@@ -53,7 +53,7 @@ a.link_button:active {
   text-decoration: none;
 }
 a.link_button.link_nav:visited:not(:hover) {
-  color: var(--color-font-contrast);
+  color: var(--color-font);
 }
 
 a:not(.link_outline):focus {

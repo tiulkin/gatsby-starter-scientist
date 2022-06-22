@@ -8,16 +8,19 @@
 .home__landing > div {
   display: flex;
   flex-direction: column;
-  height: 50vh;
   justify-content: center;
   max-width: 960px;
   min-height: 450px;
   padding: 3rem 1.5rem;
   width: 100%;
 }
+.home__landing h1 {
+  margin-top: 120px;
+}
 .home__landing h1,
 .home__landing-description {
-  color: var(--color-font-light)
+  color: var(--color-font-light);
+  line-height: 1.3em;
 }
 .home__landing-description {
   font-weight: bold;
@@ -28,6 +31,7 @@
   display: flex;
   margin: 0 -0.5rem;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
 .home__landing-links a {
   text-transform: capitalize;
